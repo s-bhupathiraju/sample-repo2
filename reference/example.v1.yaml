@@ -16,7 +16,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: 'http://localhost:8080/api/nodes.raw?srn=gh/s-bhupathiraju/sample-repo/models/example.yaml&mid=3'
+                $ref: 'http://localhost:8080/api/nodes.raw?srn=gh/s-bhupathiraju/sample-repo/models/example.yaml&mid=4'
               examples:
                 example-1: {}
 components:
