@@ -16,7 +16,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: 'http://localhost:8080/api/nodes.raw?srn=gh/s-bhupathiraju/sample-repo/models/example.yaml&mid=4'
+                type: object
+                properties:
+                  '':
+                    type: string
               examples:
                 example-1: {}
 components:
