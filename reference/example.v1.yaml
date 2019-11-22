@@ -22,5 +22,16 @@ paths:
                     type: string
               examples:
                 example-1: {}
+  /foo:
+    get:
+      summary: foo
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ../models/hello.v1.yaml
 components:
   schemas: {}
