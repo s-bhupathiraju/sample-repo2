@@ -18,8 +18,10 @@ paths:
               schema:
                 type: object
                 properties:
-                  '':
-                    type: string
+                  name:
+                    $ref: 'http://localhost:8080/api/nodes.raw?srn=gh/s-bhupathiraju/sample-repo/models/example.yaml'
+                  anotherRef:
+                    $ref: ../models/discover-medical-hello.v1.yaml
               examples:
                 example-1: {}
   /foo:
