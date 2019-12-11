@@ -2,7 +2,7 @@ title: discover.medical.hello
 type: object
 description: ''
 properties:
-  id:
-    type: number
-  name:
+  field:
+    type: string
+  v:
     type: string

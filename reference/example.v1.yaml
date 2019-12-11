@@ -19,7 +19,7 @@ paths:
                 type: object
                 properties:
                   name:
-                    $ref: 'http://localhost:8080/api/nodes.raw?srn=gh/s-bhupathiraju/sample-repo/models/example.yaml'
+                    $ref: 'http://localhost:8080/api/nodes.raw?srn=gh/s-bhupathiraju/sample-repo/models/example.yaml&mid=5'
                   anotherRef:
                     $ref: ../models/discover-medical-hello.v1.yaml
               examples:
